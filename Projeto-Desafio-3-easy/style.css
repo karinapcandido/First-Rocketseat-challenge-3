@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E5E5E5;
+}
+
+body::before {
+  content: '';
+  height: 436px;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #535971;
+}
+
+h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 48px;
+  line-height: 60px;
+
+  color: #FFF;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #FFF;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+header {
+  width: 417px;
+  padding: 140px 0 58px 0;
+}
+
+form {
+  background: #E6E6F0;
+  border-radius: 20px 20px 0 0;
+
+}
+
+fieldset {
+  border: none;
+
+  padding-left: 75px ;
+}
+
+legend {
+  color: #535971;
+
+  font-family: 'Staatliches', cursive;
+  font-size: 24px;
+  line-height: 34px;
+
+  padding-top: 30px;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+
+  width: 600px;
+  border-bottom: 1px solid #E6E6F0;
+}
+
+.person-info {
+  padding-top: 64px;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+}
+
+#event-name, #event-surname, #event-date {
+  width: 300px;
+  height: 56px;
+}
+
+#event-begin, #event-end {
+  width: 140px;
+  height: 56px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: 'Poppins', sans-serif;
+
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+
+  padding-top: 16px;
+}
+
+span {
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #C1BCCC;
+}
+
+span:hover {
+  color: #5e5b64;
+  cursor: pointer;
+}
+
+input {
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  width: 622px;
+  height: 56px;
+  
+}
+
+.date {
+  font-size: 20px;
+  line-height: 34px;
+
+  color: #535971;
+}
+
+.column02 {
+  display: flex;
+  gap: 10px;
+}
+
+.column03 {
+  display: flex;
+  flex-direction: row;
+  width: 140px;
+  gap: 10px;
+}
+
+.mentoria {
+  font-size: 20px;
+  line-height: 34px;
+
+  margin: 0;
+  padding: 16px 0 0 0;
+  border: 0;
+}
+
+footer {
+  background: #535971;
+  height: 160px;
+  width: 750px;
+  margin-top: 64px;
+  border-radius: 0 0 20px 20px;
+}
+
+.button {
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+  background: #FF5374;
+  border: none;
+
+  margin: 52px 71px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #bc3d55;
+}
+
+mentoria label {
+  padding-top: 0;
+}
